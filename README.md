@@ -6,15 +6,7 @@
 # 시작하기
 ## Requirements
 
-1. **Node**
-
-node 실행 환경이 준비되어 있어야 합니다. 다음의 명령어로 설치된 node 의 버전을 확인할 수 있습니다.
-본 샘플 코드는 v16.5.0 에서 테스트 되었습니다.
-~~~
-$ node -v
-~~~
-
-2. **Requirement**
+1. **Requirement**
 
 package.json 에 다음의 의존성을 추가해야 합니다.
 ~~~
@@ -35,7 +27,7 @@ $ npm install
 $ npm install https://github.com/iconloop/node-jose-icon.git
 ~~~
 
-3. **config/default.json**
+2. **config/default.json**
 
 설정 파일에 서버 정보가 기록되어 있어야 합니다. 위치는 config/default.json 입니다.
 
