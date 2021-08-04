@@ -42,7 +42,7 @@ $ npm install https://github.com/iconloop/node-jose-icon.git
 ~~~
 {
     "icon": {
-        "uri": "http://pds-nia.iconscare.com",
+        "uri": "http://SERVER.URI.COM",
         "method": "POST",
         "server_key": {
             "crv": "[CRV]",
