@@ -9,7 +9,7 @@
 1. **Requirement**
 
 package.json 에 다음의 의존성을 추가해야 합니다.
-~~~
+~~~json
 {
   "dependencies": {
     ...
@@ -31,7 +31,7 @@ $ npm install https://github.com/iconloop/node-jose-icon.git
 
 설정 파일에 서버 정보가 기록되어 있어야 합니다. 위치는 config/default.json 입니다.
 
-~~~
+~~~json
 {
     "icon": {
         "uri": "http://SERVER.URI.COM",
@@ -51,7 +51,7 @@ $ npm install https://github.com/iconloop/node-jose-icon.git
 
 다음의 샘플 코드와 같이 pds-for-nia 서버와 통신할 수 있습니다.
 전체 Sample 코드와 응답 예시는 sample.js 를 참조해주세요.
-~~~
+~~~js
 const pds_client = require('node-jose-icon').icon;
 
 data = [
