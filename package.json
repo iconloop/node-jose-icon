@@ -1,6 +1,6 @@
 {
   "name": "node-jose-icon",
-  "version": "0.1.1",
+  "version": "0.0.2",
   "description": "Node-jose modified version for ICON pds. forked from cisco/node-jose",
   "keywords": [
     "crypto",
